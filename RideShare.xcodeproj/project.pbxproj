@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D042EF11885A75C00014F1A /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D042EF01885A75C00014F1A /* Accounts.framework */; };
+		5D042EF31885A77900014F1A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D042EF21885A77900014F1A /* Social.framework */; };
+		5D042EF51885A78200014F1A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D042EF41885A78200014F1A /* AdSupport.framework */; };
+		5D042EF71885A78D00014F1A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D042EF61885A78D00014F1A /* AudioToolbox.framework */; };
+		5D042EF91885A79400014F1A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D042EF81885A79400014F1A /* CFNetwork.framework */; };
+		5D042EFB1885A79F00014F1A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D042EFA1885A79F00014F1A /* CoreLocation.framework */; };
+		5D042EFD1885A7A800014F1A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D042EFC1885A7A800014F1A /* MobileCoreServices.framework */; };
+		5D042EFF1885A7B000014F1A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D042EFE1885A7B000014F1A /* QuartzCore.framework */; };
+		5D042F011885A7B600014F1A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D042F001885A7B600014F1A /* Security.framework */; };
+		5D042F031885A7BD00014F1A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D042F021885A7BD00014F1A /* StoreKit.framework */; };
+		5D042F051885A7C600014F1A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D042F041885A7C600014F1A /* SystemConfiguration.framework */; };
 		5D0EB2C018630D8300A51E8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0EB2BF18630D8300A51E8D /* Foundation.framework */; };
 		5D0EB2C218630D8300A51E8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0EB2C118630D8300A51E8D /* CoreGraphics.framework */; };
 		5D0EB2C418630D8300A51E8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0EB2C318630D8300A51E8D /* UIKit.framework */; };
@@ -14,14 +25,24 @@
 		5D0EB2CC18630D8300A51E8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0EB2CB18630D8300A51E8D /* main.m */; };
 		5D0EB2D018630D8300A51E8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0EB2CF18630D8300A51E8D /* AppDelegate.m */; };
 		5D0EB2D318630D8300A51E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0EB2D118630D8300A51E8D /* Main.storyboard */; };
-		5D0EB2D618630D8300A51E8D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0EB2D518630D8300A51E8D /* FirstViewController.m */; };
-		5D0EB2D918630D8300A51E8D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0EB2D818630D8300A51E8D /* SecondViewController.m */; };
 		5D0EB2DB18630D8300A51E8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D0EB2DA18630D8300A51E8D /* Images.xcassets */; };
 		5D0EB2E218630D8300A51E8D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0EB2E118630D8300A51E8D /* XCTest.framework */; };
 		5D0EB2E318630D8300A51E8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0EB2BF18630D8300A51E8D /* Foundation.framework */; };
 		5D0EB2E418630D8300A51E8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0EB2C318630D8300A51E8D /* UIKit.framework */; };
 		5D0EB2EC18630D8300A51E8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D0EB2EA18630D8300A51E8D /* InfoPlist.strings */; };
 		5D0EB2EE18630D8300A51E8D /* RideShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0EB2ED18630D8300A51E8D /* RideShareTests.m */; };
+		5D1EEEFC18842CED004E4A9B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1EEEFB18842CED004E4A9B /* LoginViewController.m */; };
+		5D1EEEFE1884D54F004E4A9B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1EEEFD1884D54F004E4A9B /* Parse.framework */; };
+		5D721A8318AC2C3900C38831 /* StudentSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D721A8218AC2C3900C38831 /* StudentSettingsViewController.m */; };
+		5D721A8618AC333600C38831 /* DriverSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D721A8518AC333600C38831 /* DriverSettingsViewController.m */; };
+		5D721A8918AC432500C38831 /* StudentRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D721A8818AC432500C38831 /* StudentRegisterViewController.m */; };
+		5DE85A8E18AC481600D9F986 /* DriverRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE85A8D18AC481600D9F986 /* DriverRegisterViewController.m */; };
+		5DE85A9118AC524300D9F986 /* StudentChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE85A9018AC524300D9F986 /* StudentChangePasswordViewController.m */; };
+		5DE85A9418AC525E00D9F986 /* StudentEditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE85A9318AC525E00D9F986 /* StudentEditProfileViewController.m */; };
+		5DE85A9718AC527400D9F986 /* StudentContactUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE85A9618AC527400D9F986 /* StudentContactUsViewController.m */; };
+		5DE85A9A18AC528E00D9F986 /* DriverChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE85A9918AC528E00D9F986 /* DriverChangePasswordViewController.m */; };
+		5DE85A9D18AC529F00D9F986 /* DriverEditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE85A9C18AC529F00D9F986 /* DriverEditProfileViewController.m */; };
+		5DE85AA018AC52C400D9F986 /* DriverContactUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE85A9F18AC52C400D9F986 /* DriverContactUsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +56,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D042EF01885A75C00014F1A /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		5D042EF21885A77900014F1A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		5D042EF41885A78200014F1A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		5D042EF61885A78D00014F1A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5D042EF81885A79400014F1A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5D042EFA1885A79F00014F1A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5D042EFC1885A7A800014F1A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5D042EFE1885A7B000014F1A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5D042F001885A7B600014F1A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5D042F021885A7BD00014F1A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		5D042F041885A7C600014F1A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		5D0EB2BC18630D8300A51E8D /* RideShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D0EB2BF18630D8300A51E8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5D0EB2C118630D8300A51E8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,17 +77,36 @@
 		5D0EB2CD18630D8300A51E8D /* RideShare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RideShare-Prefix.pch"; sourceTree = "<group>"; };
 		5D0EB2CE18630D8300A51E8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5D0EB2CF18630D8300A51E8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5D0EB2D218630D8300A51E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5D0EB2D418630D8300A51E8D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		5D0EB2D518630D8300A51E8D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		5D0EB2D718630D8300A51E8D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		5D0EB2D818630D8300A51E8D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		5D0EB2DA18630D8300A51E8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5D0EB2E018630D8300A51E8D /* RideShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RideShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D0EB2E118630D8300A51E8D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5D0EB2E918630D8300A51E8D /* RideShareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RideShareTests-Info.plist"; sourceTree = "<group>"; };
 		5D0EB2EB18630D8300A51E8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D0EB2ED18630D8300A51E8D /* RideShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RideShareTests.m; sourceTree = "<group>"; };
+		5D1EEEB81873B73C004E4A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D1EEEFA18842CED004E4A9B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		5D1EEEFB18842CED004E4A9B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5D1EEEFD1884D54F004E4A9B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		5D721A8118AC2C3900C38831 /* StudentSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentSettingsViewController.h; sourceTree = "<group>"; };
+		5D721A8218AC2C3900C38831 /* StudentSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentSettingsViewController.m; sourceTree = "<group>"; };
+		5D721A8418AC333600C38831 /* DriverSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverSettingsViewController.h; sourceTree = "<group>"; };
+		5D721A8518AC333600C38831 /* DriverSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverSettingsViewController.m; sourceTree = "<group>"; };
+		5D721A8718AC432500C38831 /* StudentRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentRegisterViewController.h; sourceTree = "<group>"; };
+		5D721A8818AC432500C38831 /* StudentRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentRegisterViewController.m; sourceTree = "<group>"; };
+		5DE85A8C18AC481600D9F986 /* DriverRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverRegisterViewController.h; sourceTree = "<group>"; };
+		5DE85A8D18AC481600D9F986 /* DriverRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverRegisterViewController.m; sourceTree = "<group>"; };
+		5DE85A8F18AC524300D9F986 /* StudentChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentChangePasswordViewController.h; sourceTree = "<group>"; };
+		5DE85A9018AC524300D9F986 /* StudentChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentChangePasswordViewController.m; sourceTree = "<group>"; };
+		5DE85A9218AC525E00D9F986 /* StudentEditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentEditProfileViewController.h; sourceTree = "<group>"; };
+		5DE85A9318AC525E00D9F986 /* StudentEditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentEditProfileViewController.m; sourceTree = "<group>"; };
+		5DE85A9518AC527400D9F986 /* StudentContactUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentContactUsViewController.h; sourceTree = "<group>"; };
+		5DE85A9618AC527400D9F986 /* StudentContactUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentContactUsViewController.m; sourceTree = "<group>"; };
+		5DE85A9818AC528E00D9F986 /* DriverChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverChangePasswordViewController.h; sourceTree = "<group>"; };
+		5DE85A9918AC528E00D9F986 /* DriverChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverChangePasswordViewController.m; sourceTree = "<group>"; };
+		5DE85A9B18AC529F00D9F986 /* DriverEditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverEditProfileViewController.h; sourceTree = "<group>"; };
+		5DE85A9C18AC529F00D9F986 /* DriverEditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverEditProfileViewController.m; sourceTree = "<group>"; };
+		5DE85A9E18AC52C400D9F986 /* DriverContactUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverContactUsViewController.h; sourceTree = "<group>"; };
+		5DE85A9F18AC52C400D9F986 /* DriverContactUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverContactUsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +114,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D042F051885A7C600014F1A /* SystemConfiguration.framework in Frameworks */,
+				5D042F031885A7BD00014F1A /* StoreKit.framework in Frameworks */,
+				5D042F011885A7B600014F1A /* Security.framework in Frameworks */,
+				5D042EFF1885A7B000014F1A /* QuartzCore.framework in Frameworks */,
+				5D042EFD1885A7A800014F1A /* MobileCoreServices.framework in Frameworks */,
+				5D042EFB1885A79F00014F1A /* CoreLocation.framework in Frameworks */,
+				5D042EF91885A79400014F1A /* CFNetwork.framework in Frameworks */,
+				5D042EF71885A78D00014F1A /* AudioToolbox.framework in Frameworks */,
+				5D042EF51885A78200014F1A /* AdSupport.framework in Frameworks */,
+				5D042EF31885A77900014F1A /* Social.framework in Frameworks */,
+				5D042EF11885A75C00014F1A /* Accounts.framework in Frameworks */,
 				5D0EB2C218630D8300A51E8D /* CoreGraphics.framework in Frameworks */,
 				5D0EB2C418630D8300A51E8D /* UIKit.framework in Frameworks */,
+				5D1EEEFE1884D54F004E4A9B /* Parse.framework in Frameworks */,
 				5D0EB2C018630D8300A51E8D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +167,18 @@
 		5D0EB2BE18630D8300A51E8D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5D042F041885A7C600014F1A /* SystemConfiguration.framework */,
+				5D042F021885A7BD00014F1A /* StoreKit.framework */,
+				5D042F001885A7B600014F1A /* Security.framework */,
+				5D042EFE1885A7B000014F1A /* QuartzCore.framework */,
+				5D042EFC1885A7A800014F1A /* MobileCoreServices.framework */,
+				5D042EFA1885A79F00014F1A /* CoreLocation.framework */,
+				5D042EF81885A79400014F1A /* CFNetwork.framework */,
+				5D042EF61885A78D00014F1A /* AudioToolbox.framework */,
+				5D042EF41885A78200014F1A /* AdSupport.framework */,
+				5D042EF21885A77900014F1A /* Social.framework */,
+				5D042EF01885A75C00014F1A /* Accounts.framework */,
+				5D1EEEFD1884D54F004E4A9B /* Parse.framework */,
 				5D0EB2BF18630D8300A51E8D /* Foundation.framework */,
 				5D0EB2C118630D8300A51E8D /* CoreGraphics.framework */,
 				5D0EB2C318630D8300A51E8D /* UIKit.framework */,
@@ -115,13 +190,13 @@
 		5D0EB2C518630D8300A51E8D /* RideShare */ = {
 			isa = PBXGroup;
 			children = (
+				5D721A8018AC2C0D00C38831 /* Student */,
+				5D721A7F18AC2C0400C38831 /* Driver */,
 				5D0EB2CE18630D8300A51E8D /* AppDelegate.h */,
 				5D0EB2CF18630D8300A51E8D /* AppDelegate.m */,
 				5D0EB2D118630D8300A51E8D /* Main.storyboard */,
-				5D0EB2D418630D8300A51E8D /* FirstViewController.h */,
-				5D0EB2D518630D8300A51E8D /* FirstViewController.m */,
-				5D0EB2D718630D8300A51E8D /* SecondViewController.h */,
-				5D0EB2D818630D8300A51E8D /* SecondViewController.m */,
+				5D1EEEFA18842CED004E4A9B /* LoginViewController.h */,
+				5D1EEEFB18842CED004E4A9B /* LoginViewController.m */,
 				5D0EB2DA18630D8300A51E8D /* Images.xcassets */,
 				5D0EB2C618630D8300A51E8D /* Supporting Files */,
 			);
@@ -155,6 +230,40 @@
 				5D0EB2EA18630D8300A51E8D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D721A7F18AC2C0400C38831 /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				5D721A8418AC333600C38831 /* DriverSettingsViewController.h */,
+				5D721A8518AC333600C38831 /* DriverSettingsViewController.m */,
+				5DE85A8C18AC481600D9F986 /* DriverRegisterViewController.h */,
+				5DE85A8D18AC481600D9F986 /* DriverRegisterViewController.m */,
+				5DE85A9818AC528E00D9F986 /* DriverChangePasswordViewController.h */,
+				5DE85A9918AC528E00D9F986 /* DriverChangePasswordViewController.m */,
+				5DE85A9B18AC529F00D9F986 /* DriverEditProfileViewController.h */,
+				5DE85A9C18AC529F00D9F986 /* DriverEditProfileViewController.m */,
+				5DE85A9E18AC52C400D9F986 /* DriverContactUsViewController.h */,
+				5DE85A9F18AC52C400D9F986 /* DriverContactUsViewController.m */,
+			);
+			name = Driver;
+			sourceTree = "<group>";
+		};
+		5D721A8018AC2C0D00C38831 /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				5D721A8718AC432500C38831 /* StudentRegisterViewController.h */,
+				5D721A8818AC432500C38831 /* StudentRegisterViewController.m */,
+				5D721A8118AC2C3900C38831 /* StudentSettingsViewController.h */,
+				5D721A8218AC2C3900C38831 /* StudentSettingsViewController.m */,
+				5DE85A8F18AC524300D9F986 /* StudentChangePasswordViewController.h */,
+				5DE85A9018AC524300D9F986 /* StudentChangePasswordViewController.m */,
+				5DE85A9218AC525E00D9F986 /* StudentEditProfileViewController.h */,
+				5DE85A9318AC525E00D9F986 /* StudentEditProfileViewController.m */,
+				5DE85A9518AC527400D9F986 /* StudentContactUsViewController.h */,
+				5DE85A9618AC527400D9F986 /* StudentContactUsViewController.m */,
+			);
+			name = Student;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,10 +363,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D0EB2D918630D8300A51E8D /* SecondViewController.m in Sources */,
+				5DE85A9A18AC528E00D9F986 /* DriverChangePasswordViewController.m in Sources */,
+				5D721A8618AC333600C38831 /* DriverSettingsViewController.m in Sources */,
+				5DE85A9418AC525E00D9F986 /* StudentEditProfileViewController.m in Sources */,
+				5DE85A8E18AC481600D9F986 /* DriverRegisterViewController.m in Sources */,
 				5D0EB2D018630D8300A51E8D /* AppDelegate.m in Sources */,
-				5D0EB2D618630D8300A51E8D /* FirstViewController.m in Sources */,
+				5DE85A9718AC527400D9F986 /* StudentContactUsViewController.m in Sources */,
+				5DE85A9D18AC529F00D9F986 /* DriverEditProfileViewController.m in Sources */,
+				5D721A8318AC2C3900C38831 /* StudentSettingsViewController.m in Sources */,
 				5D0EB2CC18630D8300A51E8D /* main.m in Sources */,
+				5D1EEEFC18842CED004E4A9B /* LoginViewController.m in Sources */,
+				5D721A8918AC432500C38831 /* StudentRegisterViewController.m in Sources */,
+				5DE85AA018AC52C400D9F986 /* DriverContactUsViewController.m in Sources */,
+				5DE85A9118AC524300D9F986 /* StudentChangePasswordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +409,7 @@
 		5D0EB2D118630D8300A51E8D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D0EB2D218630D8300A51E8D /* Base */,
+				5D1EEEB81873B73C004E4A9B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -384,6 +502,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/xufang/Desktop/RideShare,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RideShare/RideShare-Prefix.pch";
 				INFOPLIST_FILE = "RideShare/RideShare-Info.plist";
@@ -397,6 +519,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/xufang/Desktop/RideShare,
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RideShare/RideShare-Prefix.pch";
 				INFOPLIST_FILE = "RideShare/RideShare-Info.plist";
@@ -466,6 +593,7 @@
 				5D0EB2F318630D8300A51E8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D0EB2F418630D8300A51E8D /* Build configuration list for PBXNativeTarget "RideShareTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +602,7 @@
 				5D0EB2F618630D8300A51E8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
