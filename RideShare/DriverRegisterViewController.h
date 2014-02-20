@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *reenterPasswordField;
 
 @property (weak, nonatomic) IBOutlet UISegmentedControl *genderField;
+@property (weak, nonatomic) IBOutlet UITextField *licensePlateNumberField;
 
 - (IBAction)RegisterAction:(id)sender;
 - (IBAction)LoginAction:(id)sender;
