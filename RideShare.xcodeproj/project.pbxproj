@@ -31,8 +31,10 @@
 		5D0EB2E418630D8300A51E8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0EB2C318630D8300A51E8D /* UIKit.framework */; };
 		5D0EB2EC18630D8300A51E8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D0EB2EA18630D8300A51E8D /* InfoPlist.strings */; };
 		5D0EB2EE18630D8300A51E8D /* RideShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0EB2ED18630D8300A51E8D /* RideShareTests.m */; };
+		5D11B45318BFE08000FA7B95 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D11B45218BFE08000FA7B95 /* HttpRequest.m */; };
 		5D1EEEFC18842CED004E4A9B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1EEEFB18842CED004E4A9B /* LoginViewController.m */; };
 		5D1EEEFE1884D54F004E4A9B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1EEEFD1884D54F004E4A9B /* Parse.framework */; };
+		5D6E2E0118B7F15A0034DB50 /* DriverRegisterWithoutITSCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E2E0018B7F15A0034DB50 /* DriverRegisterWithoutITSCViewController.m */; };
 		5D721A8318AC2C3900C38831 /* StudentSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D721A8218AC2C3900C38831 /* StudentSettingsViewController.m */; };
 		5D721A8618AC333600C38831 /* DriverSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D721A8518AC333600C38831 /* DriverSettingsViewController.m */; };
 		5D721A8918AC432500C38831 /* StudentRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D721A8818AC432500C38831 /* StudentRegisterViewController.m */; };
@@ -83,10 +85,14 @@
 		5D0EB2E918630D8300A51E8D /* RideShareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RideShareTests-Info.plist"; sourceTree = "<group>"; };
 		5D0EB2EB18630D8300A51E8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D0EB2ED18630D8300A51E8D /* RideShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RideShareTests.m; sourceTree = "<group>"; };
+		5D11B45118BFE08000FA7B95 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		5D11B45218BFE08000FA7B95 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
 		5D1EEEB81873B73C004E4A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D1EEEFA18842CED004E4A9B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		5D1EEEFB18842CED004E4A9B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		5D1EEEFD1884D54F004E4A9B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		5D6E2DFF18B7F15A0034DB50 /* DriverRegisterWithoutITSCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverRegisterWithoutITSCViewController.h; sourceTree = "<group>"; };
+		5D6E2E0018B7F15A0034DB50 /* DriverRegisterWithoutITSCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverRegisterWithoutITSCViewController.m; sourceTree = "<group>"; };
 		5D721A8118AC2C3900C38831 /* StudentSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentSettingsViewController.h; sourceTree = "<group>"; };
 		5D721A8218AC2C3900C38831 /* StudentSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentSettingsViewController.m; sourceTree = "<group>"; };
 		5D721A8418AC333600C38831 /* DriverSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverSettingsViewController.h; sourceTree = "<group>"; };
@@ -197,6 +203,8 @@
 				5D0EB2D118630D8300A51E8D /* Main.storyboard */,
 				5D1EEEFA18842CED004E4A9B /* LoginViewController.h */,
 				5D1EEEFB18842CED004E4A9B /* LoginViewController.m */,
+				5D11B45118BFE08000FA7B95 /* HttpRequest.h */,
+				5D11B45218BFE08000FA7B95 /* HttpRequest.m */,
 				5D0EB2DA18630D8300A51E8D /* Images.xcassets */,
 				5D0EB2C618630D8300A51E8D /* Supporting Files */,
 			);
@@ -245,6 +253,8 @@
 				5DE85A9C18AC529F00D9F986 /* DriverEditProfileViewController.m */,
 				5DE85A9E18AC52C400D9F986 /* DriverContactUsViewController.h */,
 				5DE85A9F18AC52C400D9F986 /* DriverContactUsViewController.m */,
+				5D6E2DFF18B7F15A0034DB50 /* DriverRegisterWithoutITSCViewController.h */,
+				5D6E2E0018B7F15A0034DB50 /* DriverRegisterWithoutITSCViewController.m */,
 			);
 			name = Driver;
 			sourceTree = "<group>";
@@ -370,11 +380,13 @@
 				5D0EB2D018630D8300A51E8D /* AppDelegate.m in Sources */,
 				5DE85A9718AC527400D9F986 /* StudentContactUsViewController.m in Sources */,
 				5DE85A9D18AC529F00D9F986 /* DriverEditProfileViewController.m in Sources */,
+				5D6E2E0118B7F15A0034DB50 /* DriverRegisterWithoutITSCViewController.m in Sources */,
 				5D721A8318AC2C3900C38831 /* StudentSettingsViewController.m in Sources */,
 				5D0EB2CC18630D8300A51E8D /* main.m in Sources */,
 				5D1EEEFC18842CED004E4A9B /* LoginViewController.m in Sources */,
 				5D721A8918AC432500C38831 /* StudentRegisterViewController.m in Sources */,
 				5DE85AA018AC52C400D9F986 /* DriverContactUsViewController.m in Sources */,
+				5D11B45318BFE08000FA7B95 /* HttpRequest.m in Sources */,
 				5DE85A9118AC524300D9F986 /* StudentChangePasswordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

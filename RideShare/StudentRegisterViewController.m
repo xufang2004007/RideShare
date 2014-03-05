@@ -38,7 +38,12 @@
 
 
 - (void)checkFieldsComplete{
-    if([_nameField.text isEqualToString:@""]||[_emailField.text isEqualToString:@""] ||[_passwordField.text isEqualToString:@""] ||[_reenterPasswordField.text isEqualToString:@""])
+    if([_firstNameField.text isEqualToString:@""]||
+       [_lastNameField.text isEqualToString:@""]||
+       [_preferenceNameField.text isEqualToString:@""]||
+       [_emailField.text isEqualToString:@""]||
+       [_passwordField.text isEqualToString:@""]||
+       [_reenterPasswordField.text isEqualToString:@""])
     {
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error!" message:@"You need to complete all fields!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
         [alert show];
@@ -62,22 +67,25 @@
 
 -(void)registerNewUser
 {
-    /*NSLog(@"Registering....");
-     PFUser *User=[PFUser user];
-     User.username=_nameField.text;
-     User.email=_emailField.text;
-     User.password=_passwordField.text;
-     
-     [User signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
-     if(!error)
-     {
-     NSLog(@"Registration Successful!");
-     [self performSegueWithIdentifier:@"Login" sender:self];
-     }else
-     {
-     NSLog(@"There is an error in registration!");
-     }
-     }];*/
+    
+    NSInteger statusCode = [HttpRequest addPassenger:_firstNameField.text
+                     LastName:_lastNameField.text
+                         itsc:_emailField.text
+                     password:_passwordField.text
+                       gender:_genderField.selectedSegmentIndex==0?@"m":@"f"
+               preferenceName:_preferenceNameField.text];
+
+    if (statusCode==200) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Sucess!" message:@"Registration is sucessful!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        [alert show];
+    }else
+    {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error!" message:@"Registration Failed!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        [alert show];
+    }
+    
+    // Initialize the NSURLConnection and proceed as described in
+    // Retrieving the Contents of a URL
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)theTextField {
@@ -87,11 +95,28 @@
 
 - (IBAction)RegisterAction:(id)sender
 {
-    [_nameField resignFirstResponder];
+    [_lastNameField resignFirstResponder];
+    [_firstNameField resignFirstResponder];
+    [_preferenceNameField resignFirstResponder];
     [_emailField resignFirstResponder];
     [_passwordField resignFirstResponder];
     [_reenterPasswordField resignFirstResponder];
     [self checkFieldsComplete];
+}
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+
+{
+    
+    [_lastNameField resignFirstResponder];
+    [_firstNameField resignFirstResponder];
+    [_preferenceNameField resignFirstResponder];
+    [_emailField resignFirstResponder];
+    [_passwordField resignFirstResponder];
+    [_reenterPasswordField resignFirstResponder];
+    
+    [super touchesBegan:touches withEvent:event];
+    
 }
 
 -(IBAction)LoginAction:(id)sender

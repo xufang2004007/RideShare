@@ -7,18 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HttpRequest.h"
 
 @interface DriverRegisterViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UITextField *nameField;
+@property (weak, nonatomic) IBOutlet UITextField *lastNameField;
+@property (weak, nonatomic) IBOutlet UITextField *firstNameField;
+@property (weak, nonatomic) IBOutlet UITextField *preferenceNameField;
 @property (weak, nonatomic) IBOutlet UITextField *emailField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordField;
 @property (weak, nonatomic) IBOutlet UITextField *reenterPasswordField;
-
+@property (weak, nonatomic) IBOutlet UITextField *carPlateNumberField;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *genderField;
-@property (weak, nonatomic) IBOutlet UITextField *licensePlateNumberField;
+
 
 - (IBAction)RegisterAction:(id)sender;
 - (IBAction)LoginAction:(id)sender;
+- (IBAction)RegisterWithoutITSCAction:(id)sender;
 
 @end
